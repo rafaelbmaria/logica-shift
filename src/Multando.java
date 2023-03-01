@@ -56,6 +56,8 @@ public class Multando {
 			}
 			velocidade_total = velocidade_total + veiculo;
 		}
+		leitor.close();
+		
 		perc_multado = (tot_multa_aplic / qtd) * 100;
 		
 		System.out.println("Velocidade Média	   : " + (velocidade_total/qtd));
@@ -63,7 +65,7 @@ public class Multando {
 		System.out.println("Total Multas Aplicadas     : " + tot_multa_aplic);	
 		System.out.printf( "Percentual Carros Multados : %,.2f%%\n", perc_multado);
 		
-		leitor.close();
+		
 
 	}
 

@@ -26,13 +26,14 @@ public class Enquanto {
 			System.out.println("Deseja continuar? 1 - Sim, 2 - Não");
 			op = leitor.nextInt();
 		} while(op == 1);
+		leitor.close();
 
 //		USING FOR		
 		int c;
 		for (c = 0 ; c <= 100 ; c++) {
 			System.out.println(c);
 		}
-		
+		leitor.close();
 	}
 
 }

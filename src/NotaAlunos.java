@@ -21,6 +21,8 @@ public class NotaAlunos {
 			total = total + notaaluno;
 		}
 		System.out.println("Média: " + (total/qtd));
+		
+		leitor.close();
 
 	}
 

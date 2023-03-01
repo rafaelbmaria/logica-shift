@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Vetor {
 
@@ -13,14 +12,11 @@ public class Vetor {
 //
 	
 		int[] numbers = {5,2,1,4,3};
-		//Arrays.sort(numbers);
-		Arrays.sort(numbers, Collections.reverseOrder());
-		
+		Arrays.sort(numbers);
+
 		for (int num:numbers) {
 			System.out.println(num);
 		}
-
-		
 	
 	}
 }
